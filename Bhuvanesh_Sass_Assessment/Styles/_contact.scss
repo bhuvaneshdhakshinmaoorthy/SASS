@@ -1,0 +1,28 @@
+.contact
+{
+    text-align: center;
+    & p
+    {
+        margin-top: 100px;
+        font-size: xxx-large; 
+    }
+    &__table
+    {
+        margin-top: 10px;
+        margin-left: 280px;
+        width: 60%;
+        border-collapse: collapse;
+        
+        // text-align: center;
+
+        & tr th
+        {
+            padding: 20px;
+        }
+    }
+    & button
+    {
+        font-size:xx-large;
+        padding: 20px 40px;
+    }
+}

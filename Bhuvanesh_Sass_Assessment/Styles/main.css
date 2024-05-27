@@ -1,0 +1,299 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.Welcome {
+  text-align: end;
+  height: 3.3rem;
+}
+.Welcome__image {
+  width: 3rem;
+  height: 7rem;
+  border-radius: 3rem;
+}
+
+.nav {
+  background-color: #ee8311;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__logo {
+  width: 16rem;
+  height: 5rem;
+  margin-left: 4rem;
+}
+.nav__ul {
+  display: flex;
+}
+.nav__ul li {
+  list-style: none;
+  padding: 2rem;
+}
+.nav__ul li a {
+  color: white;
+  text-decoration: none;
+}
+.nav__ul li:hover {
+  background-color: #de913e;
+}
+
+.tagline {
+  margin-top: 7rem;
+  text-align: center;
+  font-size: xxx-large;
+  color: #de913e;
+}
+
+.banner__image {
+  width: 100%;
+}
+.banner__name--container {
+  text-align: center;
+}
+.banner__name--container--sync {
+  font-weight: bolder;
+  font-size: xxx-large;
+  color: #c39f78;
+}
+.banner__name--container--store {
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(90, 146, 98);
+}
+
+.about {
+  text-align: center;
+  font-size: x-large;
+  font-weight: lighter;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.list {
+  height: 110vh;
+  background-color: #fcf0e6;
+}
+.list__line1 {
+  display: flex;
+  justify-content: space-between;
+}
+.list__box1 {
+  margin-left: 15rem;
+  border-radius: 3px;
+}
+.list__apple {
+  width: 20rem;
+  height: 15rem;
+}
+.list__box2 {
+  margin-right: 15rem;
+}
+.list__pomo {
+  width: 20rem;
+  height: 15rem;
+}
+.list__line2 {
+  display: flex;
+  justify-content: space-between;
+}
+.list__box3 {
+  margin-left: 15rem;
+}
+.list__chilli {
+  width: 20rem;
+  height: 15rem;
+}
+.list__box4 {
+  margin-right: 15rem;
+}
+.list__carrot {
+  width: 20rem;
+  height: 15rem;
+}
+
+.footer {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(234, 180, 81);
+}
+
+.Welcome {
+  text-align: end;
+  height: 3.3rem;
+}
+.Welcome__image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+
+.products {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.products__add {
+  padding: 2px 4px;
+  background-color: rgb(229, 226, 25);
+  border: 1px solid red;
+  color: black;
+  margin-left: -870px;
+}
+.products__table {
+  border-collapse: collapse;
+}
+.products__table__edit {
+  padding: 2px 4px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+}
+.products__table__delete {
+  padding: 2px 4px;
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+}
+.products__table tr th {
+  padding: 30px;
+}
+.products__table img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.Welcome {
+  text-align: end;
+  height: 3.3rem;
+}
+.Welcome__image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+
+.products {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.products__table {
+  border-collapse: collapse;
+}
+.products__table__cart {
+  padding: 2px 4px;
+  background-color: rgb(72, 29, 192);
+  border: 1px solid rgb(72, 29, 192);
+  color: white;
+}
+.products__table__buy {
+  padding: 2px 4px;
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+}
+.products__table tr th {
+  padding: 30px;
+}
+.products__table img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.Welcome {
+  text-align: end;
+  height: 3.3rem;
+}
+.Welcome__image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+
+.products {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.products__table {
+  border-collapse: collapse;
+}
+.products__table__remove {
+  padding: 2px 4px;
+  background-color: rgb(239, 23, 23);
+  border: 1px solid rgb(239, 23, 23);
+  color: white;
+}
+.products__table__final--buy {
+  padding: 2px 4px;
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+}
+.products__table tr th {
+  padding: 30px;
+}
+.products__table img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.active {
+  margin-top: 100px;
+  text-align: center;
+  font-size: xxx-large;
+}
+.active__table {
+  margin: auto;
+  border-collapse: collapse;
+  font-size: 60px;
+}
+.active__table tr th {
+  padding: 20px 40px;
+}
+.active__input {
+  width: 300px;
+  height: 30px;
+}
+
+.contact {
+  text-align: center;
+}
+.contact p {
+  margin-top: 100px;
+  font-size: xxx-large;
+}
+.contact__table {
+  margin-top: 10px;
+  margin-left: 280px;
+  width: 60%;
+  border-collapse: collapse;
+}
+.contact__table tr th {
+  padding: 20px;
+}
+.contact button {
+  font-size: xx-large;
+  padding: 20px 40px;
+}
+
+.logout {
+  margin-top: 100px;
+  text-align: center;
+  font-size: xx-large;
+}
+.logout button {
+  padding: 20px 40px;
+}
+.logout__yes {
+  background-color: red;
+  border: 1px solid red;
+}
+.logout__no {
+  background-color: green;
+  border: 1px solid green;
+}

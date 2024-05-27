@@ -1,0 +1,179 @@
+// For Index Page
+
+.Welcome
+{
+    text-align:end;
+    height: 3.3rem;
+
+    &__image
+    {
+        width: 3rem;
+        height: 7rem;
+        border-radius: 3rem;
+    }
+}
+
+.nav
+{
+    background-color: #ee8311;
+    display: flex;
+    justify-content: space-between;
+    
+
+    &__logo
+    {
+        width: 16rem;
+        height: 5rem;
+        margin-left: 4rem;
+    }
+
+    &__ul
+    {
+        display: flex;
+        // padding: 20px;
+        // justify-content: space-around;
+        
+
+        & li
+        {
+            list-style: none;
+            padding: 2rem;
+            // display: flex;
+            
+
+            & a
+            {
+                color: white;
+                text-decoration: none;
+                
+                // display: flex;
+            }
+
+            &:hover
+            {
+                background-color: #de913e;
+            }
+        }
+    }
+}
+
+.tagline
+{
+    margin-top: 7rem;
+    text-align: center;
+    font-size: xxx-large;
+    color: #de913e;
+}
+
+.banner
+{
+    &__image
+    {
+        width: 100%;
+    }
+
+    &__name--container
+    {
+        // margin-left: 43rem;
+        text-align:center;
+        &--sync
+        {
+            font-weight: bolder;
+            font-size: xxx-large;
+            color: #c39f78;
+        }
+
+        &--store
+        {
+            font-weight: bold;
+            font-size: x-large;
+            color: rgb(90, 146, 98);
+        }
+    }
+}
+
+.about
+{
+    // min-width: 25%;
+    // max-width: 75%;
+    text-align: center;
+    font-size:x-large;
+    font-weight: lighter;
+    margin-left: 20%;
+    margin-right: 20%;
+    // background-color: linear-gradient(to right #de913e, white);
+    // background: radial-gradient( #de913e, white);
+}
+
+.list
+{
+    height: 110vh;
+
+    background-color: #fcf0e6;
+    &__line1
+    {
+        // margin-top: -3rem;   
+        display: flex;
+        justify-content: space-between;
+        // border: 1px solid red;
+    }
+    &__box1
+    {
+        // margin-top: 3rem;
+        margin-left: 15rem;
+        border-radius: 3px;
+        // border: 4px solid orangered;
+        // box-shadow: 1rem 1rem 1rem;
+    }
+    &__apple
+    {
+        width: 20rem;
+        height: 15rem;
+    }
+    &__box2
+    {
+        margin-right: 15rem;
+        // box-shadow: 1rem 1rem 1rem;
+    }
+    &__pomo
+    {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    &__line2
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__box3
+    {
+        margin-left: 15rem;
+        // box-shadow: 1rem 1rem 1rem;
+    }
+    &__chilli
+    {
+        width: 20rem;
+        height: 15rem;
+    }
+    &__box4
+    {
+        margin-right: 15rem;
+        // box-shadow: 1rem 1rem 1rem;
+    }
+    &__carrot
+    {
+        width: 20rem;
+        height: 15rem;
+    }
+}
+
+.footer
+{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    background-color: rgb(234, 180, 81);
+}

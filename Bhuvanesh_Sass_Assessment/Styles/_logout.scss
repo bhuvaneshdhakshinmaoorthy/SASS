@@ -1,0 +1,21 @@
+.logout
+{
+    margin-top: 100px;
+    text-align: center;
+    font-size: xx-large;
+
+    & button
+    {
+        padding: 20px 40px;
+    }
+    &__yes
+    {
+        background-color: red;
+        border: 1px solid red;
+    }
+    &__no
+    {
+        background-color: green;
+        border: 1px solid green;
+    }
+}

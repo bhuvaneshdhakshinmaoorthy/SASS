@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/main.css">
+    <title>Product List | Syncfusion Grocery Store</title>
+</head>
+
+<body>
+    <main>
+        <!-- Nav upper -->
+        <div class="Welcome">
+            <p>Hi bhuvanesh.d@syncfusion.com <img class="Welcome__image" src="../Images/profile.jpg" alt=""></p>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="nav">
+            <div>
+                <img class="nav__logo" src="../Images/logo.png" alt="Syncfusion Grocery Store">
+            </div>
+            <div>
+                <ul class="nav__ul">
+                    <li><a href="../Html/index.html">Home</a></li>
+                    <li><a href="../Html/productlist.html" active>Product List</a></li>
+                    <li><a href="../Html/purchase.html">Purchase</a></li>
+                    <li><a href="../Html/cart.html">Cart</a></li>
+                    <li><a href="./balance.html">Balance</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./logout.html">Log Out</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Banner -->
+        <form action="" class="products">
+            <button class="products__add">Add Products</button>
+            <br>
+            <br>
+            <table class="products__table" border="3">
+                <tr>
+                    <th>SI NO</th>
+                    <th>Product Name</th>
+                    <th>Pic</th>
+                    <th>Price per kg</th>
+                    <th>Quantity in kg</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Shimla Apple</td>
+                    <td><img src="../Images/Apple.png" alt="" width="10px" height="10px"></td>
+                    <td>100</td>
+                    <td>30</td>
+                    <td><button class="products__table__edit">Edit</button> <button class="products__table__delete">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Carrot</td>
+                    <td><img src="../Images/carrot.png" alt=""></td>
+                    <td>30</td>
+                    <td>50</td>
+                    <td><button class="products__table__edit">Edit</button> <button class="products__table__delete">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Green Chilli</td>
+                    <td><img src="../Images/chilli.png" alt=""></td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td><button class="products__table__edit">Edit</button> <button class="products__table__delete">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Pomogrante</td>
+                    <td><img src="../Images/Pomogrante.png" alt=""></td>
+                    <td>150</td>
+                    <td>30</td>
+                    <td><button class="products__table__edit">Edit</button> <button class="products__table__delete">Delete</button></td>
+                </tr>
+               </table>
+        </form>
+        <br><br>
+       
+        <!-- Footer -->
+        <footer class="footer">
+            <div>
+                <p>Syncfusion Grocery Store: &copy; 2001-2024 Grocery Supplies Private Limited</p>
+            </div>            
+            <div>
+                <p>Call for purchase: +91 987654321.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
